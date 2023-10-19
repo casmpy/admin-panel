@@ -132,14 +132,14 @@ const Header = ({ toggleSidebarMenu }) => {
                       <li>Archeive</li>
                     </ul>
                   <ul className={styles["notification-tab"]}>
-                    {[0, 1, 2].map((notification, i) => (
+                    {/* {[0, 1, 2].map((notification, i) => (
                       <NotificationList 
                         key={i}
                         img={`https://cdn.pixabay.com/photo/2017/03/19/20/19/ball-2157465__340.png`}
                         desc={'Jacob jone mwntion you in rewrite button tab'}
                         datetime={'1:12pm'}
                       />
-                    ))}
+                    ))} */}
                   
                 </ul>
                 </div>

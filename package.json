@@ -1,5 +1,5 @@
 {
-  "name": "aio-dashboard",
+  "name": "sampurna",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,11 +10,13 @@
   },
   "dependencies": {
     "chart.js": "^4.2.1",
+    "draft-js": "^0.11.7",
     "eslint": "8.27.0",
     "eslint-config-next": "13.0.3",
     "next": "13.0.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-draft-wysiwyg": "^1.15.0",
     "react-icons": "^4.6.0"
   }
 }

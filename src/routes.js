@@ -20,8 +20,8 @@ export default [
         Icon: BsSpeedometer2
     },
     {
-        to: '/test-components',
-        name: 'Test Components',
+        to: '/Products',
+        name: 'Products',
         Icon: IoGridOutline
     },
     {

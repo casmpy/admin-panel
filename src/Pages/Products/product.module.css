@@ -12,9 +12,29 @@
     width: 50%;
     padding: 1rem;
     border: none;
-    border-radius: 50px;
+    border-radius: 5px;
+    margin-left: 10px;
 }
 .label{
     font-weight: bold;
-    margin-left: 5px;
+    margin-left: 10px;
+}
+.general{
+    display: flex;
+    flex-direction: column;
+    border-radius: 50px;
+    padding: 10px;
+    box-shadow: rgba(34, 36, 38, 0.1) 0px 2px
+
+}
+.general>h2{
+    margin-left: 20px;
+}
+.button{
+    border-radius: 50px;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100px;
+    background-color: grey;
+    color: aliceblue;
 }

@@ -7,15 +7,21 @@ const DoughnutChartExample = (props) => {
 
   const createDoughnutChart = (el) => {
     const data = {
-      labels: ["Red", "Blue", "Yellow"],
+      labels: ["Red", "Blue", "Yellow","Green"],
       datasets: [
         {
-          label: "My First Dataset",
-          data: [300, 50, 100],
+          label: [
+            "My First dataset",
+            
+            
+          ],
+          
+          data: [300, 50, 100,80],
           backgroundColor: [
             "rgb(255, 99, 132)",
             "rgb(54, 162, 235)",
             "rgb(255, 205, 86)",
+            "rgb(0, 255, 0)"
           ],
           hoverOffset: 4,
         },

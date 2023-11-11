@@ -2,6 +2,7 @@ import { IoGridOutline, IoHomeOutline } from "react-icons/io5";
 import { BsSpeedometer2 } from "react-icons/bs";
 import { BiUserCircle } from "react-icons/bi";
 import { AiOutlineBarChart } from "react-icons/ai";
+import { IoIosBuild } from "react-icons/io";
 
 export default [
     {
@@ -28,6 +29,11 @@ export default [
         to: '/statistics',
         name: 'Statistics',
         Icon: AiOutlineBarChart
+    },
+    {
+        to: '/services',
+        name: 'Services',
+        Icon: IoIosBuild
     },
    
 ];
